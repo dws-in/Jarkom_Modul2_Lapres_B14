@@ -33,7 +33,7 @@
 <br>
 3. Membuat subdomain `http://penanjakan.semerub14.pw`. <br>
 - Edit file `semerub14.pw` pada folder `etc/bind/jarkom` dengan setting berikut: <br>
-![alt text](/images/3.1.png) <br>
+![alt text](/images/3.1.PNG) <br>
 - Untuk mengecek, `ping penanjakan.semerub14.pw` pada GRESIK. <br>
 ![alt text](/images/3.2.png) <br>
 <br>

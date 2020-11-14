@@ -14,7 +14,7 @@
 - SIDOARJO    : Client
 
 ## Langkah-langkah pengerjaan:
-1. Membuat domain `http://semerub14.pw` dengan DNS MALANG dan mengarah ke IP Server PROBOLINGGO. <br>
+**1. Membuat domain `http://semerub14.pw` dengan DNS MALANG dan mengarah ke IP Server PROBOLINGGO.** <br>
 - Edit file `etc/bind/named.conf.local` pada MALANG dengan setting berikut: <br>
 ![alt text](https://github.com/dws-in/Jarkom_Modul2_Lapres_B14/blob/main/images/1.1.png?raw=true) <br>
 - Buat folder `/jarkom` di dalam folder`/etc/bind`. <br> 
@@ -25,7 +25,7 @@
 - Untuk mengecek, `ping semerub14.pw` pada GRESIK. <br>
 ![alt text](https://github.com/dws-in/Jarkom_Modul2_Lapres_B14/blob/main/images/1.3.png?raw=true) <br>
 <br>
-2. Membuat alias `http://www.semerub14.pw`: <br>
+**2. Membuat alias `http://www.semerub14.pw`** <br>
 - Edit file `etc/bind/jarkom/semerub14.pw` pada MALANG dengan setting berikut: <br>
 ![alt text](https://github.com/dws-in/Jarkom_Modul2_Lapres_B14/blob/main/images/2.1.png?raw=true) <br>
 - Untuk mengecek, `ping www.semerub14.pw` pada GRESIK. <br>

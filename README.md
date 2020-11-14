@@ -15,6 +15,8 @@
 
 ## Langkah-langkah pengerjaan:
 1. Membuat domain `http://semerub14.pw` dengan DNS MALANG dan mengarah ke IP Server PROBOLINGGO sebagai berikut:
+![alt text](/images/1.1.png) <br>
+
 2. Membuat alias `http://www.semerub14.pw` dengan konfigurasi sebagai barikut:
 3. Membuat subdomain `http://penanjakan.semerub14.pw` dengan konfigurasi sebagai berikut:
 4. Membuat reverse domain untuk domain utama sebagai berikut:

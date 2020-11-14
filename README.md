@@ -3,7 +3,7 @@ Anggota Kelompok:
 - IQBAAL PRATAMA PUTRA  (05111840000021)
 - DWI WAHYU SANTOSO     (05111840000121)
 
-<img src="images/topologi.png" width="500">
+<img src="images/topologi.PNG" width="500">
 
 ## Topologi:
 - SURABAYA    : Router

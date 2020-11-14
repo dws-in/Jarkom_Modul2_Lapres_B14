@@ -82,9 +82,9 @@
 **8. Membuat `DocumentRoot` pada `/var/www/semerub14.pw` yang dapat diakses melalui `http://semerub14.pw/index.php/home`.** <br>
 - Buka file `var/www/semerub14.pw` pada PROBOLINGGO dan edit seperti gambar di bawah ini: <br>
 - Tambahkan `ServerName` dan `DocumentRoot`. <br>
-![alt text](/images/8.1.png) <br>
+![alt text](/images/8.1.PNG) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `semerub14.pw`. <br>
-![alt text](/images/8.2.png) <br>
+![alt text](/images/8.2.jpeg) <br>
 
 **9. Mengatifkan mode rewrite sehingga menjadi `http://semerub14.pw/home`.** <br>
 - Aktifkan `a2enmod rewrite` pada PROBOLINGGO. <br>
@@ -95,7 +95,7 @@
 - Edit file `.htaccess` seperti berikut: <br>
 ![alt text](/images/9.3.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `semerub14.pw/home`. <br>
-![alt text](/images/9.4.png) <br>
+![alt text](/images/9.4.jpeg) <br>
 
 10. 
 

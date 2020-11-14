@@ -14,9 +14,15 @@
 - SIDOARJO    : Client
 
 ## Langkah-langkah pengerjaan:
-1. Membuat domain `http://semerub14.pw` dengan DNS MALANG dan mengarah ke IP Server PROBOLINGGO sebagai berikut:
-![alt text](/images/1.1.png) <br>
-
+1. Membuat domain `http://semerub14.pw` dengan DNS MALANG dan mengarah ke IP Server PROBOLINGGO sebagai berikut: <br>
+   ![alt text](/images/1.1.png) <br>
+   - Buat folder `jarkom` di dalam folder`/etc/bind`. <br> 
+   - Salin file `db.local` pada `/etc/bind/jarkom` dan diubah namanya menjadi `semerub14.pw`. <br>
+   - Buka file `semerub14.pw` dan edit seperti gambar di bawah ini: <br>
+   ![alt text](/images/1.2.png) <br>
+   - Kemudian restart bind9 dengan cara `service bind9 restart`. <br>
+   - Untuk mengecek, `ping semerub14.pw` pada GRESIK. <br>
+   ![alt text](/images/1.3.png) <br>
 2. Membuat alias `http://www.semerub14.pw` dengan konfigurasi sebagai barikut:
 3. Membuat subdomain `http://penanjakan.semerub14.pw` dengan konfigurasi sebagai berikut:
 4. Membuat reverse domain untuk domain utama sebagai berikut:

@@ -5,10 +5,14 @@ Anggota Kelompok:
 
 ![alt text](https://github.com/dws-in/Jarkom_Modul2_Lapres_B14/blob/main/images/topologi.PNG?raw=true)
 
-Topologi:
+##Topologi:
 - SURABAYA    : Router
 - MALANG      : DNS Server Master
 - MOJOKERTO   : DNS Server Slave
 - PROBOLINGGO : Web Server
 - GRESIK      : Client
-- SIDOARJO    : Client  
+- SIDOARJO    : Client
+##Langkah-langkah pengerjaan:
+1. Membuat domain `semerub14.pw` di Malang dengan konfigurasi sebagai berikut:
+2. Membuat alias `http://www.semerub14.pw` dengan konfigurasi sebagai barikut:
+3. Membuat subdomain `http://penanjakan.semerub14.pw` dengan konfigurasi sebagai berikut:

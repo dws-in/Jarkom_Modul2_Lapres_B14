@@ -24,7 +24,7 @@
 - Kemudian restart bind9 dengan cara `service bind9 restart`. <br>
 - Untuk mengecek, `ping semerub14.pw` pada GRESIK. <br>
 ![alt text](https://github.com/dws-in/Jarkom_Modul2_Lapres_B14/blob/main/images/1.3.png?raw=true) <br>
-<br>
+
 **2. Membuat alias `http://www.semerub14.pw`** <br>
 - Edit file `etc/bind/jarkom/semerub14.pw` pada MALANG dengan setting berikut: <br>
 ![alt text](https://github.com/dws-in/Jarkom_Modul2_Lapres_B14/blob/main/images/2.1.png?raw=true) <br>

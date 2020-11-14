@@ -16,7 +16,7 @@
 ## Langkah-langkah pengerjaan:
 1. Membuat domain `http://semerub14.pw` dengan DNS MALANG dan mengarah ke IP Server PROBOLINGGO. <br>
 - Edit file `named.conf.local` pada folder `etc/bind/` dengan setting berikut: <br>
-![alt text](/images/1.1.png) <br>
+![alt text](https://github.com/dws-in/Jarkom_Modul2_Lapres_B14/blob/main/images/1.1.png?raw=true) <br>
 - Buat folder `/jarkom` di dalam folder`/etc/bind`. <br> 
 - Salin file `db.local` pada `/etc/bind/jarkom` dan diubah namanya menjadi `semerub14.pw`. <br>
 - Buka file `semerub14.pw` dan edit seperti gambar di bawah ini: <br>

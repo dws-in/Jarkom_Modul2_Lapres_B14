@@ -68,13 +68,34 @@
 ![alt text](/images/6.3.png) <br>
 - Buat folder `/delegasi` di dalam folder`/etc/bind`. <br> 
 - Salin file `db.local` ke `/etc/bind/delegasi` dan diubah namanya menjadi `gunung.semerub14.pw`. <br>
-- Buka file `gunung.semerub14.pw` dan edit seperti gambar di bawah ini: <br>
+- Buka file `/etc/bind/delegasi/gunung.semerub14.pw` dan edit seperti gambar di bawah ini: <br>
 ![alt text](/images/6.4.png) <br>
 - Kemudian `ping gunung.semerub14.pw` pada GRESIK. <br>
 ![alt text](/images/6.5.png) <br>
 
-7. Membuat subdomain `http://naik.gunung.semerub14.pw` pada MOJOKERTO dan mengarah ke IP Server PROBOLINGGO sebagai berikut:
-8. Membuat `DocumentRoot` pada `/var/www/semerub14.pw` yang dapat diakses melalui `http://semerub14.pw/index.php/home` sebagai berikut:
-9. Mengatifkan mode rewrite sehingga menjadi `http://semerub14.pw/home` sebagai berikut:
+**7. Membuat subdomain `http://naik.gunung.semerub14.pw` pada MOJOKERTO dan mengarah ke IP Server PROBOLINGGO.** <br>
+- Buka file `/etc/bind/delegasi/gunung.semerub14.pw` pada MOJOKERTO dan edit seperti gambar di bawah ini: <br>
+![alt text](/images/7.1.png) <br>
+- Kemudian `ping naik.gunung.semerub14.pw` pada GRESIK. <br>
+![alt text](/images/7.2.png) <br>
+
+**8. Membuat `DocumentRoot` pada `/var/www/semerub14.pw` yang dapat diakses melalui `http://semerub14.pw/index.php/home`.** <br>
+- Buka file `var/www/semerub14.pw` pada PROBOLINGGO dan edit seperti gambar di bawah ini: <br>
+- Tambahkan `ServerName` dan `DocumentRoot`. <br>
+![alt text](/images/8.1.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `semerub14.pw`. <br>
+![alt text](/images/8.2.png) <br>
+
+**9. Mengatifkan mode rewrite sehingga menjadi `http://semerub14.pw/home`.** <br>
+- Aktifkan `a2enmod rewrite` pada PROBOLINGGO. <br>
+![alt text](/images/9.1.png) <br>
+- Buka file `var/www/semerub14.pw` dan edit seperti gambar di bawah ini: <br>
+- Ganti `All` pada `AllowOverride`. <br>
+![alt text](/images/9.2.png) <br>
+- Edit file `.htaccess` seperti berikut: <br>
+![alt text](/images/9.3.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `semerub14.pw/home`. <br>
+![alt text](/images/9.4.png) <br>
+
 10. 
 

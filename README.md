@@ -18,7 +18,7 @@
 - Edit file `etc/bind/named.conf.local` pada MALANG dengan setting berikut: <br>
 ![alt text](/images/1.1.png) <br>
 - Buat folder `/jarkom` di dalam folder`/etc/bind`. <br> 
-- Salin file `db.local` pada `/etc/bind/jarkom` dan diubah namanya menjadi `semerub14.pw`. <br>
+- Salin file `db.local` ke `/etc/bind/jarkom` dan diubah namanya menjadi `semerub14.pw`. <br>
 - Buka file `semerub14.pw` dan edit seperti gambar di bawah ini: <br>
 ![alt text](/images/1.2.png) <br>
 - Kemudian restart bind9 dengan cara `service bind9 restart`. <br>
@@ -55,9 +55,24 @@
 ![alt text](/images/5.3.png) <br>
 - Kemudian `ping semerub14.pw` pada GRESIK. <br>
 ![alt text](/images/5.4.png) <br>
-- Nyalakan kembali server MALANG. <br>
+- Nyalakan kembali server MALANG `service bind9 restart`. <br>
 
-6. Membuat subdomain `http://gunung.semerub14.pw` pada server MOJOKERTO dan mengarah ke IP Server PROBOLINGGO sebagai berikut:
+**6. Membuat subdomain `http://gunung.semerub14.pw` pada server MOJOKERTO dan mengarah ke IP Server PROBOLINGGO.** <br>
+- Edit file `etc/bind/jarkom/semerub14.pw` pada MALANG dengan setting berikut: <br>
+![alt text](/images/6.1.png) <br>
+- Edit file `etc/bind/jarkom/named.conf.options` pada MALANG dengan setting berikut: <br>
+- Comment pada bagian `dnssec-validation auto` dan tambahkan baris berikut. <br>
+![alt text](/images/6.2.png) <br>
+- Edit file `etc/bind/jarkom/named.conf.options` pada MOJOKERTO dengan setting berikut: <br>
+- Comment pada bagian `dnssec-validation auto` dan tambahkan baris berikut. <br>
+![alt text](/images/6.3.png) <br>
+- Buat folder `/delegasi` di dalam folder`/etc/bind`. <br> 
+- Salin file `db.local` ke `/etc/bind/delegasi` dan diubah namanya menjadi `gunung.semerub14.pw`. <br>
+- Buka file `gunung.semerub14.pw` dan edit seperti gambar di bawah ini: <br>
+![alt text](/images/6.4.png) <br>
+- Kemudian `ping gunung.semerub14.pw` pada GRESIK. <br>
+![alt text](/images/6.5.png) <br>
+
 7. Membuat subdomain `http://naik.gunung.semerub14.pw` pada MOJOKERTO dan mengarah ke IP Server PROBOLINGGO sebagai berikut:
 8. Membuat `DocumentRoot` pada `/var/www/semerub14.pw` yang dapat diakses melalui `http://semerub14.pw/index.php/home` sebagai berikut:
 9. Mengatifkan mode rewrite sehingga menjadi `http://semerub14.pw/home` sebagai berikut:

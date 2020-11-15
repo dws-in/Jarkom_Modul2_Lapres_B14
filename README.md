@@ -108,8 +108,7 @@
 ![alt text](/images/10.4.png) <br>
 
 **11. Enable directory listing hanya pada foolder `/public`.** <br>
-- Tambahkan `Option +Indexes` untuk folder `penanjakan.semerub14.pw/public`. <br>
-- Tambahkan `Option -Indexes` untuk folder `penanjakan.semerub14.pw/public/*`. <br>
+- Tambahkan `Option +Indexes` untuk folder `penanjakan.semerub14.pw/public` dan `Option -Indexes` untuk folder `penanjakan.semerub14.pw/public/*`. <br>
 ![alt text](/images/11.1.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/`. <br>
 ![alt text](/images/11.2.png) <br>

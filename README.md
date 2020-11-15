@@ -138,7 +138,7 @@
 ![alt text](/images/14.2.png) <br>
 - Lakukan `a2ensite naik.gunung.semerub14.pw` dan restart apache. <br>
 ![alt text](/images/14.3.png) <br>
-- Untuk melihat hasilnya dapat diakses dengan browser ke `naik.gunung.semerub14.pw:8888`. <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `naik.gunung.semerub14.pw:8888`. (Kendala: Belum bisa menemukan solusi untuk mengakses dengan server name `naik.gunung.semerub14.pw:8888`) <br>
 ![alt text](/images/14.4.jpeg) <br>
 
 **15. Membuat auth username dan password pada `naik.gunung.semerub14.pw`.** <br>
@@ -148,7 +148,7 @@
 ![alt text](/images/15.2.png) <br>
 - Lakukan `service apache2 restart`. <br>
 ![alt text](/images/15.3.png) <br>
-- Untuk melihat hasilnya dapat diakses dengan browser ke `10.151.83.124:8888`. Namun masih belum keluar auth pada `naik.gunung.semerub14.pw:8888`.   <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `10.151.83.124:8888`. Namun masih belum keluar auth pada `naik.gunung.semerub14.pw:8888`. (Kendala: Belum bisa menemukan solusi untuk mengakses dengan server name `naik.gunung.semerub14.pw:8888`) <br>
 ![alt text](/images/15.4.jpeg) <br>
 - Setelah berhasil masuk maka muncul tampilan seperti di bawah ini. <br>
 ![alt text](/images/15.5.jpeg) <br>

@@ -105,13 +105,13 @@
 - Aktifkan `a2ensite penanjakan.semerub14.pw`. <br>
 ![alt text](/images/10.3.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw`. <br>
-![alt text](/images/10.4.png) <br>
+![alt text](/images/10.4.jpeg) <br>
 
 **11. Enable directory listing hanya pada foolder `/public`.** <br>
 - Tambahkan `Option +Indexes` untuk folder `penanjakan.semerub14.pw/public` dan `Option -Indexes` untuk folder `penanjakan.semerub14.pw/public/*`. <br>
 ![alt text](/images/11.1.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/`. <br>
-![alt text](/images/11.2.png) <br>
+![alt text](/images/11.2.jpeg) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/css/`. <br>
 ![alt text](/images/11.3.jpeg) <br>
 
@@ -139,7 +139,7 @@
 - Lakukan `a2ensite naik.gunung.semerub14.pw` dan restart apache. <br>
 ![alt text](/images/14.3.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `naik.gunung.semerub14.pw:8888`. <br>
-![alt text](/images/14.4.png) <br>
+![alt text](/images/14.4.jpeg) <br>
 
 **15. Membuat auth username dan password pada `naik.gunung.semerub14.pw`.** <br>
 - Jalankan `htpasswd -c /etc/apache2/.htpasswd semerub14.pw` untuk membuat username semerub14.pw. Kemudian masukkan password. <br>
@@ -149,9 +149,9 @@
 - Lakukan `service apache2 restart`. <br>
 ![alt text](/images/15.3.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `naik.gunung.semerub14.pw:8888`. <br>
-![alt text](/images/15.4.png) <br>
+![alt text](/images/15.4.jpeg) <br>
 - Setelah berhasil masuk maka muncul tampilan seperti di bawah ini. <br>
-![alt text](/images/15.5.png) <br>
+![alt text](/images/15.5.jpeg) <br>
 
 **16. Mengarahkan IP 10.151.83.124 ke `semerub14.pw`.** <br>
 - Rubah .htaccess default pada PROBOLINGGO untuk meredirect ip PROBOLINGGO ke `semerub02.pw`. <br>

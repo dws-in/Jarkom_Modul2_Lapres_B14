@@ -98,8 +98,26 @@
 ![alt text](/images/9.4.jpeg) <br>
 
 **10. Mengatur struktur folder pada `var/www/penanjakan.semerub14.pw`.** <br>
+- Mengekstrak file ke folder penanjakan.semerub14.pw. <br>
+![alt text](/images/10.1.jpeg) <br>
+- Tambahkan ServerName dan DocumentRoot dengan `penanjakan.semerub14.pw`. <br>
+![alt text](/images/10.2.jpeg) <br>
+- Aktifkan `a2ensite penanjakan.semerub14.pw`. <br>
+![alt text](/images/10.3.jpeg) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw`. <br>
+![alt text](/images/10.4.jpeg) <br>
+
 **11. Enable directory listing hanya pada foolder `/public`.** <br>
+- Tambahkan `Option +Indexes` untuk folder `penanjakan.semerub14.pw/public`. <br>
+- Tambahkan `Option -Indexes` untuk folder `penanjakan.semerub14.pw/public/*`. <br>
+![alt text](/images/11.1.jpeg) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/`. <br>
+![alt text](/images/11.2.jpeg) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/css/`. <br>
+![alt text](/images/11.3.jpeg) <br>
+
 **12. Mengganti error default 404.** <br>
+
 **13. Mengubah alias `penanjakan.semerub14.pw/public/javascript` menjadi `penanjakan.semerub14.pw/js`.** <br>
 **14. Membuat `naik.gunung.semerub14.pw` di port 8888.** <br>
 **15. Membuat auth username dan password pada `naik.gunung.semerub14.pw`.** <br>

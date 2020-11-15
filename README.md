@@ -97,5 +97,13 @@
 - Untuk melihat hasilnya dapat diakses dengan browser ke `semerub14.pw/home`. <br>
 ![alt text](/images/9.4.jpeg) <br>
 
-10. 
+**10. Mengatur struktur folder pada `var/www/penanjakan.semerub14.pw`.** <br>
+**11. Enable directory listing hanya pada foolder `/public`.** <br>
+**12. Mengganti error default 404.** <br>
+**13. Mengubah alias `penanjakan.semerub14.pw/public/javascript` menjadi `penanjakan.semerub14.pw/js`.** <br>
+**14. Membuat `naik.gunung.semerub14.pw` di port 8888.** <br>
+**15. Membuat auth username dan password pada `naik.gunung.semerub14.pw`.** <br>
+**16. Mengarahkan IP 10.151.83.124 ke `semerub14.pw`.** <br>
+**17. Mengarahkan req gambar yang mengandung substring "semeru" ke `semeru.jpg`.** <br>
+
 

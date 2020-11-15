@@ -99,27 +99,49 @@
 
 **10. Mengatur struktur folder pada `var/www/penanjakan.semerub14.pw`.** <br>
 - Mengekstrak file ke folder penanjakan.semerub14.pw. <br>
-![alt text](/images/10.1.jpeg) <br>
+![alt text](/images/10.1.png) <br>
 - Tambahkan ServerName dan DocumentRoot dengan `penanjakan.semerub14.pw`. <br>
-![alt text](/images/10.2.jpeg) <br>
+![alt text](/images/10.2.png) <br>
 - Aktifkan `a2ensite penanjakan.semerub14.pw`. <br>
-![alt text](/images/10.3.jpeg) <br>
+![alt text](/images/10.3.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw`. <br>
-![alt text](/images/10.4.jpeg) <br>
+![alt text](/images/10.4.png) <br>
 
 **11. Enable directory listing hanya pada foolder `/public`.** <br>
 - Tambahkan `Option +Indexes` untuk folder `penanjakan.semerub14.pw/public`. <br>
 - Tambahkan `Option -Indexes` untuk folder `penanjakan.semerub14.pw/public/*`. <br>
-![alt text](/images/11.1.jpeg) <br>
+![alt text](/images/11.1.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/`. <br>
-![alt text](/images/11.2.jpeg) <br>
+![alt text](/images/11.2.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/css/`. <br>
-![alt text](/images/11.3.jpeg) <br>
+![alt text](/images/11.3.png) <br>
 
 **12. Mengganti error default 404.** <br>
+- Tambahkan `ErrorDocument 404/errors/404html` pada `penanjakan.semerub14.pw`. <br>
+![alt text](/images/12.1.png) <br>
+- Lakukan `service apache2 restart`. <br>
+![alt text](/images/12.2.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke link yang sebenarnya tidak ada. <br>
+![alt text](/images/12.3.png) <br>
 
 **13. Mengubah alias `penanjakan.semerub14.pw/public/javascript` menjadi `penanjakan.semerub14.pw/js`.** <br>
+- Menambahkan `Alias "/js"` seperti gambar di bawah ini. <br>
+![alt text](/images/13.1.png) <br>
+- Lakukan `service apache2 restart`. <br>
+![alt text](/images/13.2.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/js`. Hasilnya tidak lagi not found, karena folder javascript memang tidak bisa di akses. <br>
+![alt text](/images/13.3.png) <br>
+
 **14. Membuat `naik.gunung.semerub14.pw` di port 8888.** <br>
+- Setting `VirtualHost *:8888`, tambahkan ServerName dan DocumentRoot untuk `naik.gunung.semerub14.pw`. <br>
+![alt text](/images/14.1.png) <br>
+- Lalu pada file `/etc/apache2/ports.conf` tambahkan Listen untuk port 8888. <br>
+![alt text](/images/14.2.png) <br>
+- Lakukan `a2ensite naik.gunung.semerub14.pw` dan restart apache. <br>
+![alt text](/images/14.3.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `naik.gunung.semerub14.pw:8888`. <br>
+![alt text](/images/14.4.png) <br>
+
 **15. Membuat auth username dan password pada `naik.gunung.semerub14.pw`.** <br>
 **16. Mengarahkan IP 10.151.83.124 ke `semerub14.pw`.** <br>
 **17. Mengarahkan req gambar yang mengandung substring "semeru" ke `semeru.jpg`.** <br>

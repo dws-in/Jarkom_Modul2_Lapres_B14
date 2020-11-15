@@ -122,7 +122,7 @@
 - Lakukan `service apache2 restart`. <br>
 ![alt text](/images/12.2.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke link yang sebenarnya tidak ada. <br>
-![alt text](/images/12.3.png) <br>
+![alt text](/images/12.3.jpeg) <br>
 
 **13. Mengubah alias `penanjakan.semerub14.pw/public/javascript` menjadi `penanjakan.semerub14.pw/js`.** <br>
 - Menambahkan `Alias "/js"` seperti gambar di bawah ini. <br>
@@ -164,7 +164,7 @@
 - Lakukan `service apache2 restart`. <br>
 ![alt text](/images/16.4.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `10.151.83.124`. <br>
-![alt text](/images/16.5.png) <br>
+![alt text](/images/16.5.jpeg) <br>
 
 **17. Mengarahkan req gambar yang mengandung substring "semeru" ke `semeru.jpg`.** <br>
 - Edit file .htaccess seperti berikut. <br>
@@ -172,6 +172,6 @@
 - Pada `/sites-available/penanjakan.semerub14.pw` tambahkan `AllowOverride All` untuk directory `/var/www/penanjakan.semerub02.pw`. <br>
 ![alt text](/images/17.2.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/images/semeru.jpg`. <br>
-![alt text](/images/17.3.png) <br>
+![alt text](/images/17.3.jpeg) <br>
 
 

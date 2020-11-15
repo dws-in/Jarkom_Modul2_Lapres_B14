@@ -154,8 +154,6 @@
 ![alt text](/images/15.5.png) <br>
 
 **16. Mengarahkan IP 10.151.83.124 ke `semerub14.pw`.** <br>
-- Test `IP 10.151.83.124` di browser. <br>
-![alt text](/images/16.1.png) <br>
 - Rubah .htaccess default pada PROBOLINGGO untuk meredirect ip PROBOLINGGO ke `semerub02.pw`. <br>
 ![alt text](/images/16.2.png) <br>
 - Ganti `AllowOverride None` jadi `All` untuk directory `/var/www/`. <br>

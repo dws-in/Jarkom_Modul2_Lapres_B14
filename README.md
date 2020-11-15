@@ -113,7 +113,7 @@
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/`. <br>
 ![alt text](/images/11.2.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/css/`. <br>
-![alt text](/images/11.3.png) <br>
+![alt text](/images/11.3.jpeg) <br>
 
 **12. Mengganti error default 404.** <br>
 - Tambahkan `ErrorDocument 404/errors/404html` pada `penanjakan.semerub14.pw`. <br>
@@ -129,7 +129,7 @@
 - Lakukan `service apache2 restart`. <br>
 ![alt text](/images/13.2.png) <br>
 - Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/js`. Hasilnya tidak lagi not found, karena folder javascript memang tidak bisa di akses. <br>
-![alt text](/images/13.3.png) <br>
+![alt text](/images/13.3.jpeg) <br>
 
 **14. Membuat `naik.gunung.semerub14.pw` di port 8888.** <br>
 - Setting `VirtualHost *:8888`, tambahkan ServerName dan DocumentRoot untuk `naik.gunung.semerub14.pw`. <br>

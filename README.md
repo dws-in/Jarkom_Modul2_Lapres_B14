@@ -143,7 +143,35 @@
 ![alt text](/images/14.4.png) <br>
 
 **15. Membuat auth username dan password pada `naik.gunung.semerub14.pw`.** <br>
+- Jalankan `htpasswd -c /etc/apache2/.htpasswd semerub14.pw` untuk membuat username semerub14.pw. Kemudian masukkan password. <br>
+![alt text](/images/15.1.png) <br>
+- Lalu tambahkan Auth untuk directory `naik.gunung.semerub14.pw`. <br>
+![alt text](/images/15.2.png) <br>
+- Lakukan `service apache2 restart`. <br>
+![alt text](/images/15.3.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `naik.gunung.semerub14.pw:8888`. <br>
+![alt text](/images/15.4.png) <br>
+- Setelah berhasil masuk maka muncul tampilan seperti di bawah ini. <br>
+![alt text](/images/15.5.png) <br>
+
 **16. Mengarahkan IP 10.151.83.124 ke `semerub14.pw`.** <br>
+- Test `IP 10.151.83.124` di browser. <br>
+![alt text](/images/16.1.png) <br>
+- Rubah .htaccess default pada PROBOLINGGO untuk meredirect ip PROBOLINGGO ke `semerub02.pw`. <br>
+![alt text](/images/16.2.png) <br>
+- Ganti `AllowOverride None` jadi `All` untuk directory `/var/www/`. <br>
+![alt text](/images/16.3.png) <br>
+- Lakukan `service apache2 restart`. <br>
+![alt text](/images/16.4.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `10.151.83.124`. <br>
+![alt text](/images/16.5.png) <br>
+
 **17. Mengarahkan req gambar yang mengandung substring "semeru" ke `semeru.jpg`.** <br>
+- Edit file .htaccess seperti berikut. <br>
+![alt text](/images/17.1.png) <br>
+- Pada `/sites-available/penanjakan.semerub14.pw` tambahkan `AllowOverride All` untuk directory `/var/www/penanjakan.semerub02.pw`. <br>
+![alt text](/images/17.2.png) <br>
+- Untuk melihat hasilnya dapat diakses dengan browser ke `penanjakan.semerub14.pw/public/images/semeru.jpg`. <br>
+![alt text](/images/17.3.png) <br>
 
 
